@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 const Search = ({keywords, setKeywords}) => {
   return (
-    <div lassName={styles.search}>
+    <div className={styles.search}>
       <input
         type="text"
         value={keywords}
