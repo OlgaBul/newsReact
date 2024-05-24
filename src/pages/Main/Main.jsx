@@ -6,7 +6,6 @@ const Main = () => {
   return (
     <main className={styles.main}>
       <LatestNews />
-
       <NewsByFilters />
     </main>
   );
