@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import LatestNews from "../../Components/LatestNews/LatestNews";
 import NewsByFilters from "../../Components/NewsByFilters/NewsByFilters";
 
+
 const Main = () => {
   return (
     <main className={styles.main}>
