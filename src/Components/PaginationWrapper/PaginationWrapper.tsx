@@ -7,7 +7,13 @@ interface Props {
   bottom?: boolean
 }
 
-const PaginationWrapper = ({ top, bottom, children, ...PaginationProps }: Props & IPaginationProps) => {
+
+const PaginationWrapper = ({
+  top,
+  bottom,
+  children,
+  ...PaginationProps
+}: Props & IPaginationProps) => {
   return (
     <>
       {top && <Pagination {...PaginationProps} />}
